@@ -34,3 +34,5 @@ def index(name=''):
         file_list.append(file)
     return render_template('main.html', files=file_list)
 
+if __name__ == '__main__':
+    app.run(debug=True)
